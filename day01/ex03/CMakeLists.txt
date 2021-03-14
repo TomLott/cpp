@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.17)
+project(ex03)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+add_executable(ex03
+        main.cpp
+        Zombie.cpp
+        Zombie.hpp
+        ZombieEvent.cpp
+        ZombieEvent.hpp
+        ZombieHorde.cpp
+        ZombieHorde.hpp)

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day01/ex02/Zombie.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day01/ex02/ZombieEvent.hpp
+Zombie.hpp
+/Users/itollett/cpp/day01/ex02/Zombie.hpp
+
+/Users/itollett/cpp/day01/ex02/main.cpp
+Zombie.hpp
+/Users/itollett/cpp/day01/ex02/Zombie.hpp
+ZombieEvent.hpp
+/Users/itollett/cpp/day01/ex02/ZombieEvent.hpp
+
