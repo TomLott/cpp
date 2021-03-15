@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day01/ex06/HumanA.hpp
+Weapon.hpp
+/Users/itollett/cpp/day01/ex06/Weapon.hpp
+string
+-
+
+/Users/itollett/cpp/day01/ex06/HumanB.hpp
+Weapon.hpp
+/Users/itollett/cpp/day01/ex06/Weapon.hpp
+string
+-
+
+/Users/itollett/cpp/day01/ex06/Weapon.hpp
+HumanA.hpp
+/Users/itollett/cpp/day01/ex06/HumanA.hpp
+HumanB.hpp
+/Users/itollett/cpp/day01/ex06/HumanB.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day01/ex06/main.cpp
+HumanB.hpp
+/Users/itollett/cpp/day01/ex06/HumanB.hpp
+HumanA.hpp
+/Users/itollett/cpp/day01/ex06/HumanA.hpp
+Weapon.hpp
+/Users/itollett/cpp/day01/ex06/Weapon.hpp
+

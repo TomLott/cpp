@@ -7,11 +7,12 @@ public:
 	ZombieHorde();
 	ZombieHorde(int N);
 	~ZombieHorde();
+	void announce();
 
 
 private:
 	int 	_n;
-	Zombie *zombie;
+	Zombie *_zombie;
 };
 
 #endif

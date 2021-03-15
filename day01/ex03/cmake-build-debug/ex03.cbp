@@ -88,12 +88,6 @@
 		<Unit filename="/Users/itollett/cpp/day01/ex03/Zombie.hpp">
 			<Option target="ex03"/>
 		</Unit>
-		<Unit filename="/Users/itollett/cpp/day01/ex03/ZombieEvent.cpp">
-			<Option target="ex03"/>
-		</Unit>
-		<Unit filename="/Users/itollett/cpp/day01/ex03/ZombieEvent.hpp">
-			<Option target="ex03"/>
-		</Unit>
 		<Unit filename="/Users/itollett/cpp/day01/ex03/ZombieHorde.cpp">
 			<Option target="ex03"/>
 		</Unit>

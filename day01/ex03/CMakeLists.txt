@@ -9,7 +9,5 @@ add_executable(ex03
         main.cpp
         Zombie.cpp
         Zombie.hpp
-        ZombieEvent.cpp
-        ZombieEvent.hpp
         ZombieHorde.cpp
         ZombieHorde.hpp)

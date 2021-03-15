@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/itollett/cpp/day01/ex03/Zombie.cpp" "/Users/itollett/cpp/day01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Zombie.cpp.o"
-  "/Users/itollett/cpp/day01/ex03/ZombieEvent.cpp" "/Users/itollett/cpp/day01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ZombieEvent.cpp.o"
   "/Users/itollett/cpp/day01/ex03/ZombieHorde.cpp" "/Users/itollett/cpp/day01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ZombieHorde.cpp.o"
   "/Users/itollett/cpp/day01/ex03/main.cpp" "/Users/itollett/cpp/day01/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o"
   )

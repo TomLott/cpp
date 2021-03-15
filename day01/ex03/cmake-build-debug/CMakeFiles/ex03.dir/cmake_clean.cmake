@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ex03.dir/Zombie.cpp.o"
-  "CMakeFiles/ex03.dir/ZombieEvent.cpp.o"
   "CMakeFiles/ex03.dir/ZombieHorde.cpp.o"
   "CMakeFiles/ex03.dir/main.cpp.o"
   "ex03"

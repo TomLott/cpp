@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day01/ex05/Brain.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day01/ex05/Human.cpp
+Human.hpp
+/Users/itollett/cpp/day01/ex05/Human.hpp
+
+/Users/itollett/cpp/day01/ex05/Human.hpp
+Brain.hpp
+/Users/itollett/cpp/day01/ex05/Brain.hpp
+

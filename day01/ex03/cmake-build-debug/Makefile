@@ -170,33 +170,6 @@ Zombie.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Zombie.cpp.s
 .PHONY : Zombie.cpp.s
 
-ZombieEvent.o: ZombieEvent.cpp.o
-
-.PHONY : ZombieEvent.o
-
-# target to build an object file
-ZombieEvent.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ZombieEvent.cpp.o
-.PHONY : ZombieEvent.cpp.o
-
-ZombieEvent.i: ZombieEvent.cpp.i
-
-.PHONY : ZombieEvent.i
-
-# target to preprocess a source file
-ZombieEvent.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ZombieEvent.cpp.i
-.PHONY : ZombieEvent.cpp.i
-
-ZombieEvent.s: ZombieEvent.cpp.s
-
-.PHONY : ZombieEvent.s
-
-# target to generate assembly for a file
-ZombieEvent.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/ZombieEvent.cpp.s
-.PHONY : ZombieEvent.cpp.s
-
 ZombieHorde.o: ZombieHorde.cpp.o
 
 .PHONY : ZombieHorde.o
@@ -263,9 +236,6 @@ help:
 	@echo "... Zombie.o"
 	@echo "... Zombie.i"
 	@echo "... Zombie.s"
-	@echo "... ZombieEvent.o"
-	@echo "... ZombieEvent.i"
-	@echo "... ZombieEvent.s"
 	@echo "... ZombieHorde.o"
 	@echo "... ZombieHorde.i"
 	@echo "... ZombieHorde.s"

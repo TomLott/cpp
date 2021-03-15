@@ -1,15 +1,12 @@
 #include "Zombie.hpp"
-#include "ZombieEvent.hpp"
+#include "ZombieHorde.hpp"
 
 int main(){
-	Zombie* zombie3;
-	Zombie* zombie1 = new Zombie("Mike", "Black");
-	zombie1->announce();
-	ZombieEvent zombie2;
-	zombie2.setZombieType("Programmer");
-	zombie3 = zombie2.randomChump();
-	zombie3->announce();
-	delete zombie1;
-	delete zombie3;
+	ZombieHorde horde(10);
+	horde.announce();
+
+	std::cout << std::endl << "And now we set -10." << std::endl;
+	ZombieHorde horde1(-10);
+	horde1.announce();
 }
 
