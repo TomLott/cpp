@@ -6,7 +6,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42876f45-63b5-4c11-9ae7-1762b326fad0" name="Default Changelist" comment="" />
+    <list default="true" id="42876f45-63b5-4c11-9ae7-1762b326fad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day01/ex07/Sed.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex07/Sed.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day02/Main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex00/megaphone" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/phonebook.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/phonebook.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/HumanA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/HumanA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/HumanA.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/HumanA.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/HumanB.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/HumanB.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/HumanB.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/HumanB.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/Weapon.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/Weapon.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/Weapon.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/Weapon.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanA.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanA.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanB.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/HumanB.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/Weapon.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/Weapon.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/CMakeFiles/ex06.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/ex06" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/cmake-build-debug/ex06" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex06/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex06/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01/ex07/.idea/ex07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../day01/ex07/.idea/ex07.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +37,9 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -24,6 +50,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1pjyXBXld8joIfNf5GVbzHxz4PE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,10 +85,24 @@
       <workItem from="1615710833588" duration="806000" />
       <workItem from="1615716774560" duration="170000" />
       <workItem from="1615719552136" duration="717000" />
+      <workItem from="1615910219171" duration="1059000" />
+      <workItem from="1615911907377" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

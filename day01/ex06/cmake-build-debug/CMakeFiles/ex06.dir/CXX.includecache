@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/itollett/cpp/day01/ex06/HumanA.cpp
-HumanA.hpp
-/Users/itollett/cpp/day01/ex06/HumanA.hpp
-
-/Users/itollett/cpp/day01/ex06/HumanA.hpp
-Weapon.hpp
-/Users/itollett/cpp/day01/ex06/Weapon.hpp
-string
--
-
 /Users/itollett/cpp/day01/ex06/HumanB.cpp
 HumanB.hpp
 /Users/itollett/cpp/day01/ex06/HumanB.hpp

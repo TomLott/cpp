@@ -3,7 +3,7 @@
 #include "Weapon.hpp"
 
 int main(){
-	{
+		{
 			Weapon club = Weapon("crude spiked club");
 			HumanA bob("Bob", club);
 			bob.attack();
@@ -18,6 +18,5 @@ int main(){
 			club.setType("some other type of club");
 			jim.attack();
 		}
-	}
 }
 

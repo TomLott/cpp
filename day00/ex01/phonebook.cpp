@@ -112,21 +112,27 @@ static int ft_search(PhoneBook person[8]) {
 		std::cout << "         |";
 
 		tmp = person[i].getFirstName();
-		std::cout << tmp.substr(0, 10);
+		std::cout << tmp.substr(0, 9);
+		if (tmp.length() > 9)
+			std::cout << ".";
 		count = 10 - (int) tmp.length();
 		while (count-- > 0)
 			std::cout << " ";
 		std::cout << "|";
 
 		tmp = person[i].getLastName();
-		std::cout << tmp.substr(0, 10);
+		std::cout << tmp.substr(0, 9);
+		if (tmp.length() > 9)
+			std::cout << ".";
 		count = 10 - (int) tmp.length();
 		while (count-- > 0)
 			std::cout << " ";
 		std::cout << "|";
 
 		tmp = person[i].getNickname();
-		std::cout << tmp.substr(0, 10);
+		std::cout << tmp.substr(0, 9);
+		if (tmp.length() > 9)
+			std::cout << ".";
 		count = 10 - (int) tmp.length();
 		while (count-- > 0)
 			std::cout << " ";
@@ -140,9 +146,18 @@ static int ft_search(PhoneBook person[8]) {
 	std::cout << "If you want to know any specific information, " << std::endl
 			  << "please enter index. Otherwise, text anything or" << std::endl
 			  << "just press Enter" << std::endl;
-	getline(std::cin, tmp);
-	if (tmp.compare("")) {
-		i = std::stoi(tmp) - 1;
+
+	getline(std::cin, tmp, '\n');
+	const char *s = tmp.c_str();
+
+	if (strcmp(s, "")) {
+		for (int i = 0; i < strlen(s); i++){
+			if (isdigit(s[i]))
+				;
+			else
+				return (0);
+		}
+		i = atoi(s) - 1;
 		if (i >= 0 && i < 8 && person[i].exist == 1)
 			ft_get_info(person[i]);
 	}

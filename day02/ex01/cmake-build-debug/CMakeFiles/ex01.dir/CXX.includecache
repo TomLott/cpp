@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day02/ex01/Fixed.cpp
+Fixed.h
+/Users/itollett/cpp/day02/ex01/Fixed.h
+iostream
+-
+
+/Users/itollett/cpp/day02/ex01/Fixed.h
+cmath
+-
+ostream
+-
+string
+-
+
+/Users/itollett/cpp/day02/ex01/main.cpp
+iostream
+-
+Fixed.h
+/Users/itollett/cpp/day02/ex01/Fixed.h
+
