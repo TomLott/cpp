@@ -1,9 +1,13 @@
 #include <sstream>
 #include "Brain.hpp"
 
-Brain::Brain() {}
+Brain::Brain() {
+	std::cout << "Contructor brain" << this << std::endl;
+}
 
-Brain::~Brain() {}
+Brain::~Brain() {
+	std::cout << "Destructor brain" << this << std::endl;
+}
 
 std::string Brain::identify() const {
 	std::stringstream address;

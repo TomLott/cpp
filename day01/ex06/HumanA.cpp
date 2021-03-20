@@ -1,8 +1,11 @@
 #include "HumanA.hpp"
 
-HumanA::HumanA(const std::string &name, Weapon &weapon): _name(name), _weapon(weapon){}
+HumanA::HumanA(const std::string &name, Weapon &weapon): _name(name), _weapon(weapon){
+	std::cout << "Constructor has called A " << std::endl;
+}
 
 HumanA::~HumanA() {
+	std::cout << "Destructor has called A " << std::endl;
 }
 
 void HumanA::attack() {

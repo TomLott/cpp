@@ -43,6 +43,10 @@ int main(){
 	}
 	std::cout << std::endl;
 
+
+	FragTrap e(b);
+
 	delete a;
 	delete d;
+
 }

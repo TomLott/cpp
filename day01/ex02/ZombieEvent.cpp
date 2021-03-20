@@ -15,14 +15,14 @@ Zombie *ZombieEvent::randomChump() {
 		"Gabe",
 		"Abraham"
 	};
-	srand(time(NULL));
+
 	temp = std::rand() % 10;
 	Zombie *zombie = new Zombie(newName[temp], _type);
 	zombie->announce();
 	return (zombie);
 }
 ZombieEvent::ZombieEvent() {
-
+	srand(time(0));
 }
 ZombieEvent::~ZombieEvent() {}
 

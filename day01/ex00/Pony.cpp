@@ -3,7 +3,9 @@
 Pony::Pony(std::string s) {
 	this->_name = s;
 }
-Pony::~Pony() = default;
+Pony::~Pony(){
+	std::cout << "Destructor called" << std::endl;
+}
 
 void Pony::fly(){
 	std::cout << "Pony " << this->_name << " has flown away." << std::endl;

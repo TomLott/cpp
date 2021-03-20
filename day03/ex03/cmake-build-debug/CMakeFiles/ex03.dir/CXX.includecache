@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day03/ex03/ClapTrap.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day03/ex03/FragTrap.hpp
+string
+-
+ClapTrap.hpp
+/Users/itollett/cpp/day03/ex03/ClapTrap.hpp
+
+/Users/itollett/cpp/day03/ex03/NinjaTrap.cpp
+NinjaTrap.hpp
+/Users/itollett/cpp/day03/ex03/NinjaTrap.hpp
+
+/Users/itollett/cpp/day03/ex03/NinjaTrap.hpp
+ClapTrap.hpp
+/Users/itollett/cpp/day03/ex03/ClapTrap.hpp
+ScavTrap.hpp
+/Users/itollett/cpp/day03/ex03/ScavTrap.hpp
+FragTrap.hpp
+/Users/itollett/cpp/day03/ex03/FragTrap.hpp
+
+/Users/itollett/cpp/day03/ex03/ScavTrap.hpp
+string
+-
+ClapTrap.hpp
+/Users/itollett/cpp/day03/ex03/ClapTrap.hpp
+
