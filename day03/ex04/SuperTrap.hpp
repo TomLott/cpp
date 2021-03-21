@@ -6,7 +6,16 @@
 
 
 class SuperTrap : public FragTrap, public NinjaTrap{
+private:
+	SuperTrap();
+public:
+	SuperTrap(std::string const & name);
+	~SuperTrap();
+	SuperTrap(SuperTrap & src);
+	SuperTrap & operator = (SuperTrap const & src);
 
+	void rangedAttack(std::string const & target);
+	void meleeAttack(std::string const & target);
 };
 
 

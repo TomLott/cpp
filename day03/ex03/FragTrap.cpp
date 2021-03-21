@@ -1,8 +1,9 @@
 #include "FragTrap.hpp"
 #include <iostream>
 
+FragTrap::FragTrap() {}
 
-FragTrap::FragTrap(std::string const &name) {
+FragTrap::FragTrap(std::string const &name) : ClapTrap(name){
 	std::cout << "Creating robot: Bu-pi-pa-pa...Bonjour!" << std::endl;
 	this->energyPoints = 100;
 	this->maxEnergyPoints = 100;

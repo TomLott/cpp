@@ -5,8 +5,10 @@
 #include <iostream>
 
 class ClapTrap{
+
 public:
 	ClapTrap();
+	ClapTrap(std::string const &name);
 	~ClapTrap();
 	ClapTrap(ClapTrap const & src);
 	ClapTrap & operator=(ClapTrap const & src);

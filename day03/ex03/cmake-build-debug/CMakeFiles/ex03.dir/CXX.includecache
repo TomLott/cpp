@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/Users/itollett/cpp/day03/ex03/ClapTrap.cpp
+ClapTrap.hpp
 /Users/itollett/cpp/day03/ex03/ClapTrap.hpp
 string
 -
+iostream
+-
+
+/Users/itollett/cpp/day03/ex03/ClapTrap.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day03/ex03/FragTrap.cpp
+FragTrap.hpp
+/Users/itollett/cpp/day03/ex03/FragTrap.hpp
 iostream
 -
 
@@ -30,9 +44,29 @@ ScavTrap.hpp
 FragTrap.hpp
 /Users/itollett/cpp/day03/ex03/FragTrap.hpp
 
+/Users/itollett/cpp/day03/ex03/ScavTrap.cpp
+ScavTrap.hpp
+/Users/itollett/cpp/day03/ex03/ScavTrap.hpp
+iostream
+-
+
 /Users/itollett/cpp/day03/ex03/ScavTrap.hpp
 string
 -
 ClapTrap.hpp
 /Users/itollett/cpp/day03/ex03/ClapTrap.hpp
+
+/Users/itollett/cpp/day03/ex03/main.cpp
+FragTrap.hpp
+/Users/itollett/cpp/day03/ex03/FragTrap.hpp
+ScavTrap.hpp
+/Users/itollett/cpp/day03/ex03/ScavTrap.hpp
+NinjaTrap.hpp
+/Users/itollett/cpp/day03/ex03/NinjaTrap.hpp
+ClapTrap.hpp
+/Users/itollett/cpp/day03/ex03/ClapTrap.hpp
+string
+-
+iostream
+-
 

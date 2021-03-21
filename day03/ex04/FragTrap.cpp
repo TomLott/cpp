@@ -1,13 +1,13 @@
 #include "FragTrap.hpp"
 #include <iostream>
 
+FragTrap::FragTrap() {}
 
-FragTrap::FragTrap(std::string const &name) {
+FragTrap::FragTrap(std::string const &name) : ClapTrap(name) {
 	std::cout << "Creating robot: Bu-pi-pa-pa...Bonjour!" << std::endl;
 	this->energyPoints = 100;
 	this->maxEnergyPoints = 100;
 	this->level = 1;
-	this->name = name;
 	this->meleeAttackDamage = 30;
 	this->rangedAttackDamage = 20;
 	this->armorDamageReduction = 5;
@@ -20,7 +20,6 @@ FragTrap::~FragTrap() {
 
 FragTrap::FragTrap(FragTrap const &src) {
 	std::cout << "Copying robot: Bu-pi-pa-pa...Bonjour!" << std::endl << std::endl;
-	this->name = src.name;
 	this->hitPoints = src.hitPoints;
 	this->maxHitPoints = src.maxHitPoints;
 	this->energyPoints = src.energyPoints;
@@ -44,6 +43,41 @@ FragTrap & FragTrap::operator=(FragTrap const & src){
 		this->armorDamageReduction = src.armorDamageReduction;
 	}
 	return (*this);
+}
+
+void FragTrap::rangedAttack(const std::string &target) {
+	std::cout << this->name << " FragTrap attacks " << target;
+	std::cout << " at range, ";
+	std::cout << " causing " << this->rangedAttackDamage
+			  << " points of damage." << std::endl;
+}
+
+void FragTrap::meleeAttack(const std::string &target) {
+	std::cout << this->name << " FragTrap attacks " << target;
+	std::cout << " at melee,";
+	std::cout << " causing " << this->meleeAttackDamage
+			  << " points of damage." << std::endl << std::endl;
+}
+
+bool FragTrap::takeDamage(unsigned int amount) {
+	int damage = (int)amount - this->armorDamageReduction;
+	this->hitPoints-= damage;
+	if (this->hitPoints < 0) {
+		damage += this->hitPoints;
+		this->hitPoints = 0;
+	}
+	std::cout << this->name;
+	std::cout << " FragTrap taking " << damage << " points of damage." << std::endl << std::endl;
+	return (this->hitPoints);
+}
+
+void FragTrap::beRepaired(unsigned int amount) {
+	int heal = this->hitPoints + (int)amount;
+	if (heal > this->maxHitPoints)
+		heal = this->maxHitPoints - this->hitPoints;
+	std::cout << this->name;
+	std::cout << " FragTrap repairs " << heal << " points of health points." << std::endl << std::endl;
+	this->hitPoints += heal;
 }
 
 void attack(){

@@ -1,6 +1,7 @@
 #include "FragTrap.hpp"
 #include <iostream>
 
+FragTrap::FragTrap() {}
 
 FragTrap::FragTrap(std::string const &name) {
 	std::cout << "Creating robot: Bu-pi-pa-pa...Bonjour!" << std::endl;

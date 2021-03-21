@@ -2,14 +2,16 @@
 #include <string>
 #include <iostream>
 
-ClapTrap::ClapTrap() {
+ClapTrap::ClapTrap() {}
+
+ClapTrap::ClapTrap(std::string const &name) {
 	std::cout << "*creating sound* Clap-clap Clap-Clap!" << std::endl;
 	this->hitPoints = 100;
 	this->maxHitPoints = 100;
 	this->energyPoints = 0;
 	this->maxEnergyPoints = 0;
 	this->level = 1;
-	this->name = "";
+	this->name = name;
 	this->meleeAttackDamage = 0;
 	this->rangedAttackDamage = 0;
 	this->armorDamageReduction = 0;

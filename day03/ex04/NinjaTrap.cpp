@@ -1,8 +1,9 @@
 #include "NinjaTrap.hpp"
 
-NinjaTrap::NinjaTrap(const std::string &name) {
+NinjaTrap::NinjaTrap() {}
+
+NinjaTrap::NinjaTrap(const std::string &name) : ClapTrap(name) {
 	std::cout << "*Ninja appears from the shadow.*" << std::endl;
-	this->name = name;
 	this->hitPoints = 60;
 	this->maxHitPoints = 60;
 	this->energyPoints = 120;
@@ -15,9 +16,8 @@ NinjaTrap::~NinjaTrap() {
 	std::cout << "*Ninja disappears in the shadow.*" << std::endl;
 }
 
-NinjaTrap::NinjaTrap(NinjaTrap &src) {
+NinjaTrap::NinjaTrap(NinjaTrap &src) : ClapTrap(src){
 	std::cout << "*Ninja appears from the shadow. He looks exactly like another one.*" << std::endl;
-	this->name = src.name;
 	this->hitPoints = src.hitPoints;
 	this->maxHitPoints = src.maxHitPoints;
 	this->energyPoints = src.energyPoints;
@@ -27,7 +27,7 @@ NinjaTrap::NinjaTrap(NinjaTrap &src) {
 	this->rangedAttackDamage = src.rangedAttackDamage;
 }
 
-NinjaTrap & NinjaTrap::operator=(NinjaTrap &src) {
+NinjaTrap & NinjaTrap::operator=(NinjaTrap const &src) {
 	if (this != &src){
 		this->hitPoints = src.hitPoints;
 		this->maxHitPoints = src.maxHitPoints;
@@ -56,4 +56,39 @@ void NinjaTrap::ninjaShoebox(ClapTrap &clap) {
 
 void NinjaTrap::ninjaShoebox(NinjaTrap &ninja) {
 	std::cout << "Look! It's NinjaTrap class" << std::endl;
+}
+
+void NinjaTrap::rangedAttack(const std::string &target) {
+	std::cout << this->name << " NinjaTrap attacks " << target;
+	std::cout << "at range, ";
+	std::cout << "causing " << this->rangedAttackDamage
+			  << "points of damage." << std::endl;
+}
+
+void NinjaTrap::meleeAttack(const std::string &target) {
+	std::cout << this->name << " NinjaTrap attacks " << target;
+	std::cout << " at melee,";
+	std::cout << " causing " << this->meleeAttackDamage
+			  << " points of damage." << std::endl << std::endl;
+}
+
+bool NinjaTrap::takeDamage(unsigned int amount) {
+	int damage = (int)amount - this->armorDamageReduction;
+	this->hitPoints-= damage;
+	if (this->hitPoints < 0) {
+		damage += this->hitPoints;
+		this->hitPoints = 0;
+	}
+	std::cout << this->name;
+	std::cout << " NinjaTrap taking " << damage << " points of damage." << std::endl << std::endl;
+	return (this->hitPoints);
+}
+
+void NinjaTrap::beRepaired(unsigned int amount) {
+	int heal = this->hitPoints + (int)amount;
+	if (heal > this->maxHitPoints)
+		heal = this->maxHitPoints - this->hitPoints;
+	std::cout << this->name;
+	std::cout << " NingaTrap repairs " << heal << " points of health points." << std::endl << std::endl;
+	this->hitPoints += heal;
 }

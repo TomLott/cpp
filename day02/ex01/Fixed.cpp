@@ -12,15 +12,15 @@ Fixed::~Fixed() {
 
 Fixed::Fixed(const int param) {
 	std::cout << "Int constructor called" << std::endl;
-	std::cout << "before :" << param << std::endl;
+	std::cout << "int before :" << param << std::endl;
 	this->_fpv = (param << _bits);
-	std::cout << "after :" << _fpv << std::endl;
+	std::cout << "int after :" << _fpv << std::endl;
 }
 
 Fixed::Fixed(const float param){
 	std::cout << "Float constructor called" << std::endl;
 	std::cout << "float before :" << param << std::endl;
-	this->_fpv = (int)(roundf(param * (1 << _bits)));
+	this->_fpv =  param * (1 << _bits);
 	std::cout << "after :" << _fpv << std::endl;
 }
 
@@ -48,6 +48,7 @@ Fixed::Fixed(const Fixed &src) {
 
 std::ostream &operator<<(std::ostream &o, const Fixed &rhs) {
 	o << rhs.toFloat();
+	std::cout << "to float " << rhs.toFloat() << std::endl;
 	return (o);
 }
 

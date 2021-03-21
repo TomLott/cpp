@@ -6,6 +6,8 @@
 #include "FragTrap.hpp"
 
 class NinjaTrap : public ClapTrap {
+private:
+		NinjaTrap();
 public:
 		NinjaTrap(const std::string & name);
 		~NinjaTrap();

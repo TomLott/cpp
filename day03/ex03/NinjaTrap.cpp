@@ -1,6 +1,8 @@
 #include "NinjaTrap.hpp"
 
-NinjaTrap::NinjaTrap(const std::string &name) {
+NinjaTrap::NinjaTrap() {}
+
+NinjaTrap::NinjaTrap(const std::string &name) : ClapTrap(name){
 	std::cout << "*Ninja appears from the shadow.*" << std::endl;
 	this->name = name;
 	this->hitPoints = 60;

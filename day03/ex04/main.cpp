@@ -2,12 +2,13 @@
 #include "ScavTrap.hpp"
 #include "NinjaTrap.hpp"
 #include "ClapTrap.hpp"
+#include "SuperTrap.hpp"
 
 #include <string>
 #include <iostream>
 
 int main(){
-	bool alive;
+/*	bool alive;
 	FragTrap *a = new FragTrap("Kenny");
 	FragTrap b ("Kile");
 	FragTrap c ("Mr. President");
@@ -61,12 +62,23 @@ int main(){
 
 
 
-	ClapTrap *clap = new ClapTrap();
+	ClapTrap *clap = new ClapTrap("John");
 
 	//clap->takeDamage(20);
 	nin2.ninjaShoebox(*clap);
 
 	delete a;
-	delete d;
+	delete d;*/
+
+	SuperTrap f("first");
+
+	std::cout << "-----------------" << std::endl;
+	f.FragTrap::rangedAttack("second");
+	f.rangedAttack("second");
+	std::cout << "-----------------" << std::endl;
+	f.meleeAttack("third");
+	f.NinjaTrap::meleeAttack("third");
+	std::cout << "-----------------" << std::endl;
+
 
 }

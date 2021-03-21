@@ -1,6 +1,7 @@
 #include "FragTrap.hpp"
 #include <iostream>
 
+FragTrap::FragTrap() {}
 
 FragTrap::FragTrap(std::string const &name) {
 	std::cout << "Creating robot: Bu-pi-pa-pa...Bonjour!" << std::endl;
@@ -15,6 +16,7 @@ FragTrap::FragTrap(std::string const &name) {
 	this->armorDamageReduction = 5;
 	srand(time(NULL));
 }
+
 FragTrap::~FragTrap() {
 	std::cout << "No! Stop! I don't wanna die!!! No-no-n..." << std::endl;
 }

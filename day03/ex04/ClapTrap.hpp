@@ -7,13 +7,11 @@
 class ClapTrap{
 public:
 	ClapTrap();
+	ClapTrap(std::string const & name);
 	~ClapTrap();
 	ClapTrap(ClapTrap const & src);
 	ClapTrap & operator=(ClapTrap const & src);
-	void rangedAttack(std::string const & target);
-	void meleeAttack(std::string const & target);
-	bool takeDamage(unsigned int amount);
-	void beRepaired(unsigned int amount);
+
 
 	std::string &getName();
 

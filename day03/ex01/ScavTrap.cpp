@@ -1,6 +1,8 @@
 #include "ScavTrap.hpp"
 #include <iostream>
 
+ScavTrap::ScavTrap() {}
+
 ScavTrap::ScavTrap(const std::string &name) {
 	std::cout << "Here we go. Born to kill. You better run, better run faster than my bullet." << std::endl;
 	this->name = name;

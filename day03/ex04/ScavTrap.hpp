@@ -5,8 +5,9 @@
 #include "ClapTrap.hpp"
 
 
-class ScavTrap : public ClapTrap{
+class ScavTrap : virtual public ClapTrap{
 public:
+				ScavTrap();
 				ScavTrap(std::string const & name);
 				~ScavTrap();
 				ScavTrap(ScavTrap const & src);
@@ -14,6 +15,11 @@ public:
 				void challengeNewcomer();
 
 				int &getMeleeAttackDamage();
+
+				void rangedAttack(std::string const & target);
+				void meleeAttack(std::string const & target);
+				bool takeDamage(unsigned int amount);
+				void beRepaired(unsigned int amount);
 };
 
 

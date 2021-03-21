@@ -28,7 +28,7 @@ private:
 	int 		meleeAttackDamage;
 	int			rangedAttackDamage;
 	int 		armorDamageReduction;
-
+	FragTrap();
 };
 
 #endif
