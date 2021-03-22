@@ -53,7 +53,9 @@ void Character::equip(AWeapon * w) {
 }
 
 void Character::attack(Enemy *enemy) {
-	if (!_weapon)
+	if (enemy == nullptr)
+		return ;
+	if (_weapon == nullptr)
 		return ;
 	if (_ap < _weapon->getAPCost()) {
 		std::cout << "Not enough AP." << std::endl;

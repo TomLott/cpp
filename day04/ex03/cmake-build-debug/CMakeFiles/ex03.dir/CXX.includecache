@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day04/ex03/AMateria.cpp
+AMateria.hpp
+/Users/itollett/cpp/day04/ex03/AMateria.hpp
+
+/Users/itollett/cpp/day04/ex03/AMateria.hpp
+string
+-
+ICharacter.hpp
+/Users/itollett/cpp/day04/ex03/ICharacter.hpp
+
+/Users/itollett/cpp/day04/ex03/Cure.cpp
+Cure.hpp
+/Users/itollett/cpp/day04/ex03/Cure.hpp
+
+/Users/itollett/cpp/day04/ex03/Cure.hpp
+AMateria.hpp
+/Users/itollett/cpp/day04/ex03/AMateria.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day04/ex03/ICharacter.hpp
+AMateria.hpp
+/Users/itollett/cpp/day04/ex03/AMateria.hpp
+
+/Users/itollett/cpp/day04/ex03/Ice.cpp
+Ice.hpp
+/Users/itollett/cpp/day04/ex03/Ice.hpp
+
+/Users/itollett/cpp/day04/ex03/Ice.hpp
+AMateria.hpp
+/Users/itollett/cpp/day04/ex03/AMateria.hpp
+iostream
+-
+

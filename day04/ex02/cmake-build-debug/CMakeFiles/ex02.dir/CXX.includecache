@@ -6,9 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/Users/itollett/cpp/day04/ex02/Squad.cpp
-Squad.hpp
-/Users/itollett/cpp/day04/ex02/Squad.hpp
+/Users/itollett/cpp/day04/ex02/AssaultTerminator.hpp
+ISpaceMarine.hpp
+/Users/itollett/cpp/day04/ex02/ISpaceMarine.hpp
+
+/Users/itollett/cpp/day04/ex02/ISpaceMarine.hpp
+
+/Users/itollett/cpp/day04/ex02/ISquad.hpp
+ISpaceMarine.hpp
+/Users/itollett/cpp/day04/ex02/ISpaceMarine.hpp
 
 /Users/itollett/cpp/day04/ex02/Squad.hpp
+ISquad.hpp
+/Users/itollett/cpp/day04/ex02/ISquad.hpp
+string
+-
+
+/Users/itollett/cpp/day04/ex02/TacticalMarine.hpp
+ISpaceMarine.hpp
+/Users/itollett/cpp/day04/ex02/ISpaceMarine.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day04/ex02/main.cpp
+AssaultTerminator.hpp
+/Users/itollett/cpp/day04/ex02/AssaultTerminator.hpp
+ISpaceMarine.hpp
+/Users/itollett/cpp/day04/ex02/ISpaceMarine.hpp
+ISquad.hpp
+/Users/itollett/cpp/day04/ex02/ISquad.hpp
+Squad.hpp
+/Users/itollett/cpp/day04/ex02/Squad.hpp
+TacticalMarine.hpp
+/Users/itollett/cpp/day04/ex02/TacticalMarine.hpp
 

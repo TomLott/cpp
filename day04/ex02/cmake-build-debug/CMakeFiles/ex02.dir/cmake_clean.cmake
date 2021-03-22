@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ex02.dir/AssaultTerminator.cpp.o"
   "CMakeFiles/ex02.dir/Squad.cpp.o"
+  "CMakeFiles/ex02.dir/TacticalMarine.cpp.o"
+  "CMakeFiles/ex02.dir/main.cpp.o"
   "ex02"
   "ex02.pdb"
 )

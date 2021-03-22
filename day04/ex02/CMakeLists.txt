@@ -3,8 +3,15 @@ project(ex02)
 
 set(CMAKE_CXX_STANDARD 98)
 
-include_directories(.)
-
 add_executable(ex02
+        main.cpp
+        Squad.hpp
         Squad.cpp
-        )
+        ISquad.hpp
+        ISpaceMarine.hpp
+        AssaultTerminator.cpp
+        AssaultTerminator.hpp
+        TacticalMarine.cpp
+        TacticalMarine.hpp
+        TacticalMarine.hpp
+        TacticalMarine.cpp)

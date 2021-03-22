@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/itollett/cpp/day04/ex02/AssaultTerminator.cpp" "/Users/itollett/cpp/day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/AssaultTerminator.cpp.o"
   "/Users/itollett/cpp/day04/ex02/Squad.cpp" "/Users/itollett/cpp/day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o"
+  "/Users/itollett/cpp/day04/ex02/TacticalMarine.cpp" "/Users/itollett/cpp/day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/TacticalMarine.cpp.o"
+  "/Users/itollett/cpp/day04/ex02/main.cpp" "/Users/itollett/cpp/day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../."
   )
 
 # Targets to which this target links.
