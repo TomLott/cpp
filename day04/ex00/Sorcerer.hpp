@@ -4,6 +4,8 @@
 #include <iostream>
 #include <ostream>
 
+#include "Victim.hpp"
+
 class Sorcerer {
 private:
 	Sorcerer();
@@ -13,9 +15,16 @@ private:
 public:
 	Sorcerer(std::string const & name, std::string const & title);
 	~Sorcerer();
+	Sorcerer(Sorcerer const & src);
+	Sorcerer & operator = (Sorcerer const & src);
+
+	std::string getName() const;
+	std::string getTitle() const;
+
+	void 	polymorph(Victim const & src) const;
 };
 
-ostream & 
+std::ostream &operator << (std::ostream &o, const Sorcerer & src);
 
 
 #endif

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day04/ex02/Squad.cpp
+Squad.hpp
+/Users/itollett/cpp/day04/ex02/Squad.hpp
+
+/Users/itollett/cpp/day04/ex02/Squad.hpp
+
