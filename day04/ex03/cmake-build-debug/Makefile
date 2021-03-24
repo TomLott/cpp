@@ -251,6 +251,60 @@ Ice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/Ice.cpp.s
 .PHONY : Ice.cpp.s
 
+MateriaSource.o: MateriaSource.cpp.o
+
+.PHONY : MateriaSource.o
+
+# target to build an object file
+MateriaSource.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/MateriaSource.cpp.o
+.PHONY : MateriaSource.cpp.o
+
+MateriaSource.i: MateriaSource.cpp.i
+
+.PHONY : MateriaSource.i
+
+# target to preprocess a source file
+MateriaSource.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/MateriaSource.cpp.i
+.PHONY : MateriaSource.cpp.i
+
+MateriaSource.s: MateriaSource.cpp.s
+
+.PHONY : MateriaSource.s
+
+# target to generate assembly for a file
+MateriaSource.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/MateriaSource.cpp.s
+.PHONY : MateriaSource.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex03.dir/build.make CMakeFiles/ex03.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -272,6 +326,12 @@ help:
 	@echo "... Ice.o"
 	@echo "... Ice.i"
 	@echo "... Ice.s"
+	@echo "... MateriaSource.o"
+	@echo "... MateriaSource.i"
+	@echo "... MateriaSource.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

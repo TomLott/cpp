@@ -5,6 +5,11 @@ CMakeFiles/ex03.dir/AMateria.cpp.o
  /Users/itollett/cpp/day04/ex03/AMateria.cpp
  /Users/itollett/cpp/day04/ex03/AMateria.hpp
  /Users/itollett/cpp/day04/ex03/ICharacter.hpp
+CMakeFiles/ex03.dir/Character.cpp.o
+ /Users/itollett/cpp/day04/ex03/AMateria.hpp
+ /Users/itollett/cpp/day04/ex03/Character.cpp
+ /Users/itollett/cpp/day04/ex03/Character.hpp
+ /Users/itollett/cpp/day04/ex03/ICharacter.hpp
 CMakeFiles/ex03.dir/Cure.cpp.o
  /Users/itollett/cpp/day04/ex03/AMateria.hpp
  /Users/itollett/cpp/day04/ex03/Cure.cpp
@@ -15,3 +20,18 @@ CMakeFiles/ex03.dir/Ice.cpp.o
  /Users/itollett/cpp/day04/ex03/ICharacter.hpp
  /Users/itollett/cpp/day04/ex03/Ice.cpp
  /Users/itollett/cpp/day04/ex03/Ice.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o
+ /Users/itollett/cpp/day04/ex03/AMateria.hpp
+ /Users/itollett/cpp/day04/ex03/ICharacter.hpp
+ /Users/itollett/cpp/day04/ex03/IMateriaSource.hpp
+ /Users/itollett/cpp/day04/ex03/MateriaSource.cpp
+ /Users/itollett/cpp/day04/ex03/MateriaSource.hpp
+CMakeFiles/ex03.dir/main.cpp.o
+ /Users/itollett/cpp/day04/ex03/AMateria.hpp
+ /Users/itollett/cpp/day04/ex03/Character.hpp
+ /Users/itollett/cpp/day04/ex03/Cure.hpp
+ /Users/itollett/cpp/day04/ex03/ICharacter.hpp
+ /Users/itollett/cpp/day04/ex03/IMateriaSource.hpp
+ /Users/itollett/cpp/day04/ex03/Ice.hpp
+ /Users/itollett/cpp/day04/ex03/MateriaSource.hpp
+ /Users/itollett/cpp/day04/ex03/main.cpp

@@ -43,19 +43,20 @@ NinjaTrap & NinjaTrap::operator=(NinjaTrap const &src) {
 }
 
 void NinjaTrap::ninjaShoebox(FragTrap &frag) {
-	std::cout << "Look! It's FragTrap class" << std::endl;
+	std::cout << "Look!" << frag.getName() <<  ". It's FragTrap class. " <<  std::endl;
+
 }
 
 void NinjaTrap::ninjaShoebox(ScavTrap &scav) {
-	std::cout << "Look! It's ScavTrap class" << std::endl;
+	std::cout << "Look!" << scav.getName() <<  ". It's ScavTrap class" << std::endl;
 }
 
 void NinjaTrap::ninjaShoebox(ClapTrap &clap) {
-	std::cout << "Look! It's ClapTrap class" << std::endl;
+	std::cout << "Look!" << clap.getName() <<  ". It's ClapTrap class" << std::endl;
 }
 
 void NinjaTrap::ninjaShoebox(NinjaTrap &ninja) {
-	std::cout << "Look! It's NinjaTrap class" << std::endl;
+	std::cout << "Look! " << ninja.getName() <<  ". It's NinjaTrap class" << std::endl;
 }
 
 void NinjaTrap::rangedAttack(const std::string &target) {

@@ -21,7 +21,7 @@ SuperTrap::~SuperTrap() {
 	std::cout << "SuperTrap's destructor killed Frankenstein's monster. Finally!" << std::endl;
 }
 
-SuperTrap::SuperTrap(SuperTrap &src) : ClapTrap(src), NinjaTrap(src), FragTrap(src) {
+SuperTrap::SuperTrap(SuperTrap &src) : ClapTrap(src),  FragTrap(src),  NinjaTrap(src) {
 	std::cout << "SuperTrap copy machine created new monster" << std::endl;
 	this->hitPoints = src.hitPoints;
 	this->maxHitPoints = src.maxHitPoints;
@@ -58,8 +58,12 @@ void SuperTrap::rangedAttack(const std::string &target) {
 }
 
 void SuperTrap::meleeAttack(const std::string &target) {
-	std::cout << this->name << " NinjaTrap attacks " << target;
+	std::cout << this->name << " SuperTrap attacks " << target;
 	std::cout << " at melee,";
 	std::cout << " causing " << this->meleeAttackDamage
 			  << " points of damage." << std::endl << std::endl;
+}
+
+void SuperTrap::print() {
+	std::cout << hitPoints << " " << rangedAttackDamage << std::endl;
 }

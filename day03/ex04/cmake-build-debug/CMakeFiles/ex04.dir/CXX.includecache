@@ -12,21 +12,11 @@ string
 iostream
 -
 
-/Users/itollett/cpp/day03/ex04/FragTrap.cpp
-FragTrap.hpp
-/Users/itollett/cpp/day03/ex04/FragTrap.hpp
-iostream
--
-
 /Users/itollett/cpp/day03/ex04/FragTrap.hpp
 string
 -
 ClapTrap.hpp
 /Users/itollett/cpp/day03/ex04/ClapTrap.hpp
-
-/Users/itollett/cpp/day03/ex04/NinjaTrap.cpp
-NinjaTrap.hpp
-/Users/itollett/cpp/day03/ex04/NinjaTrap.hpp
 
 /Users/itollett/cpp/day03/ex04/NinjaTrap.hpp
 ClapTrap.hpp

@@ -51,9 +51,9 @@ int main(){
 
 	NinjaTrap nin1("Ninja1");
 	NinjaTrap nin2("Ninja2");
+	ScavTrap *h = new ScavTrap("Haha");
 
-	nin1.ninjaShoebox(*a);
-	nin1.ninjaShoebox(*d);
+	nin1.ninjaShoebox(*h);
 	nin2.ninjaShoebox(nin1);
 	nin1.meleeAttack(nin2.getName());
 	nin2.takeDamage(60);
@@ -63,10 +63,11 @@ int main(){
 
 	ClapTrap *clap = new ClapTrap();
 
-	//clap->takeDamage(20);
+	clap->takeDamage(20);
 	nin2.ninjaShoebox(*clap);
 
 	delete a;
 	delete d;
-
+	delete h;
+	delete clap;
 }

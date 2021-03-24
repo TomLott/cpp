@@ -13,5 +13,9 @@ add_executable(ex03
         Ice.hpp
         Character.cpp
         Character.hpp
+        IMateriaSource.hpp
+        MateriaSource.cpp
+        MateriaSource.hpp
+        main.cpp
         AMateria.cpp
         AMateria.hpp)

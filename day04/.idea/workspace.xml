@@ -6,7 +6,45 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae414ba-0b53-4345-8d62-9445ee454511" name="Default Changelist" comment="" />
+    <list default="true" id="5ae414ba-0b53-4345-8d62-9445ee454511" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day03/cmake-build-debug/CMakeFiles/day03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/cmake-build-debug/CMakeFiles/day03.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/cmake-build-debug/CMakeFiles/day03.dir/ex00/FragTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/cmake-build-debug/CMakeFiles/day03.dir/ex00/FragTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/cmake-build-debug/CMakeFiles/day03.dir/ex00/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/cmake-build-debug/CMakeFiles/day03.dir/ex00/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/cmake-build-debug/day03" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/cmake-build-debug/day03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex01/ScavTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex01/ScavTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/ClapTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/ClapTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/ClapTrap.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/ClapTrap.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/NinjaTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/NinjaTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ClapTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ClapTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/FragTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/FragTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/NinjaTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/NinjaTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ScavTrap.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/ScavTrap.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/ex03" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/cmake-build-debug/ex03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex03/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex04/NinjaTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex04/NinjaTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex04/SuperTrap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex04/SuperTrap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day03/ex04/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../day03/ex04/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/Character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/Character.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/Character.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Character.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/cmake-build-debug/CMakeFiles/ex01.dir/Character.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/Squad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/Squad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/cmake-build-debug/ex02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +52,9 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1q4KlwUjasTryn8F7GNfaoqlEAc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616333576849</updated>
       <workItem from="1616333578062" duration="1000" />
+      <workItem from="1616496425926" duration="400000" />
     </task>
     <servers />
   </component>

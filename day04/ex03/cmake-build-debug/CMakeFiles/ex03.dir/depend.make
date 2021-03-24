@@ -5,6 +5,11 @@ CMakeFiles/ex03.dir/AMateria.cpp.o: ../AMateria.cpp
 CMakeFiles/ex03.dir/AMateria.cpp.o: ../AMateria.hpp
 CMakeFiles/ex03.dir/AMateria.cpp.o: ../ICharacter.hpp
 
+CMakeFiles/ex03.dir/Character.cpp.o: ../AMateria.hpp
+CMakeFiles/ex03.dir/Character.cpp.o: ../Character.cpp
+CMakeFiles/ex03.dir/Character.cpp.o: ../Character.hpp
+CMakeFiles/ex03.dir/Character.cpp.o: ../ICharacter.hpp
+
 CMakeFiles/ex03.dir/Cure.cpp.o: ../AMateria.hpp
 CMakeFiles/ex03.dir/Cure.cpp.o: ../Cure.cpp
 CMakeFiles/ex03.dir/Cure.cpp.o: ../Cure.hpp
@@ -14,4 +19,19 @@ CMakeFiles/ex03.dir/Ice.cpp.o: ../AMateria.hpp
 CMakeFiles/ex03.dir/Ice.cpp.o: ../ICharacter.hpp
 CMakeFiles/ex03.dir/Ice.cpp.o: ../Ice.cpp
 CMakeFiles/ex03.dir/Ice.cpp.o: ../Ice.hpp
+
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../AMateria.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../ICharacter.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../IMateriaSource.hpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../MateriaSource.cpp
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../MateriaSource.hpp
+
+CMakeFiles/ex03.dir/main.cpp.o: ../AMateria.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../Character.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../Cure.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../ICharacter.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../IMateriaSource.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../Ice.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../MateriaSource.hpp
+CMakeFiles/ex03.dir/main.cpp.o: ../main.cpp
 

@@ -9,7 +9,7 @@ class ClapTrap{
 public:
 	ClapTrap();
 	ClapTrap(std::string const &name);
-	~ClapTrap();
+	virtual ~ClapTrap();
 	ClapTrap(ClapTrap const & src);
 	ClapTrap & operator=(ClapTrap const & src);
 	void rangedAttack(std::string const & target);
@@ -17,7 +17,7 @@ public:
 	bool takeDamage(unsigned int amount);
 	void beRepaired(unsigned int amount);
 
-	std::string &getName();
+	virtual std::string &getName();
 
 protected:
 	int 		hitPoints;

@@ -103,10 +103,22 @@
 		<Unit filename="/Users/itollett/cpp/day04/ex03/ICharacter.hpp">
 			<Option target="ex03"/>
 		</Unit>
+		<Unit filename="/Users/itollett/cpp/day04/ex03/IMateriaSource.hpp">
+			<Option target="ex03"/>
+		</Unit>
 		<Unit filename="/Users/itollett/cpp/day04/ex03/Ice.cpp">
 			<Option target="ex03"/>
 		</Unit>
 		<Unit filename="/Users/itollett/cpp/day04/ex03/Ice.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/itollett/cpp/day04/ex03/MateriaSource.cpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/itollett/cpp/day04/ex03/MateriaSource.hpp">
+			<Option target="ex03"/>
+		</Unit>
+		<Unit filename="/Users/itollett/cpp/day04/ex03/main.cpp">
 			<Option target="ex03"/>
 		</Unit>
 		<Unit filename="/Users/itollett/cpp/day04/ex03/CMakeLists.txt">

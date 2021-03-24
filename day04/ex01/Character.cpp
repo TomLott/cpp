@@ -52,7 +52,7 @@ void Character::equip(AWeapon * w) {
 	std::cout << w->getName() << " was equipped." << std::endl;
 }
 
-void Character::attack(Enemy *enemy) {
+void Character::attack(Enemy *&enemy) {
 	if (enemy == nullptr)
 		return ;
 	if (_weapon == nullptr)

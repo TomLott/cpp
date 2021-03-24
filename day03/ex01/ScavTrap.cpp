@@ -97,7 +97,7 @@ void ScavTrap::challengeNewcomer() {
 }
 
 std::string & ScavTrap::getName() {
-	return (this->getName());
+	return (this->name);
 }
 
 int & ScavTrap::getMeleeAttackDamage() {

@@ -116,9 +116,35 @@ CMakeFiles/ex03.dir/Character.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/Character.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/itollett/cpp/day04/ex03/Character.cpp -o CMakeFiles/ex03.dir/Character.cpp.s
 
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: CMakeFiles/ex03.dir/flags.make
+CMakeFiles/ex03.dir/MateriaSource.cpp.o: ../MateriaSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/itollett/cpp/day04/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex03.dir/MateriaSource.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/MateriaSource.cpp.o -c /Users/itollett/cpp/day04/ex03/MateriaSource.cpp
+
+CMakeFiles/ex03.dir/MateriaSource.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/MateriaSource.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/itollett/cpp/day04/ex03/MateriaSource.cpp > CMakeFiles/ex03.dir/MateriaSource.cpp.i
+
+CMakeFiles/ex03.dir/MateriaSource.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/MateriaSource.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/itollett/cpp/day04/ex03/MateriaSource.cpp -o CMakeFiles/ex03.dir/MateriaSource.cpp.s
+
+CMakeFiles/ex03.dir/main.cpp.o: CMakeFiles/ex03.dir/flags.make
+CMakeFiles/ex03.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/itollett/cpp/day04/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex03.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/main.cpp.o -c /Users/itollett/cpp/day04/ex03/main.cpp
+
+CMakeFiles/ex03.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex03.dir/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/itollett/cpp/day04/ex03/main.cpp > CMakeFiles/ex03.dir/main.cpp.i
+
+CMakeFiles/ex03.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex03.dir/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/itollett/cpp/day04/ex03/main.cpp -o CMakeFiles/ex03.dir/main.cpp.s
+
 CMakeFiles/ex03.dir/AMateria.cpp.o: CMakeFiles/ex03.dir/flags.make
 CMakeFiles/ex03.dir/AMateria.cpp.o: ../AMateria.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/itollett/cpp/day04/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex03.dir/AMateria.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/itollett/cpp/day04/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ex03.dir/AMateria.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex03.dir/AMateria.cpp.o -c /Users/itollett/cpp/day04/ex03/AMateria.cpp
 
 CMakeFiles/ex03.dir/AMateria.cpp.i: cmake_force
@@ -134,6 +160,8 @@ ex03_OBJECTS = \
 "CMakeFiles/ex03.dir/Cure.cpp.o" \
 "CMakeFiles/ex03.dir/Ice.cpp.o" \
 "CMakeFiles/ex03.dir/Character.cpp.o" \
+"CMakeFiles/ex03.dir/MateriaSource.cpp.o" \
+"CMakeFiles/ex03.dir/main.cpp.o" \
 "CMakeFiles/ex03.dir/AMateria.cpp.o"
 
 # External object files for target ex03
@@ -142,10 +170,12 @@ ex03_EXTERNAL_OBJECTS =
 ex03: CMakeFiles/ex03.dir/Cure.cpp.o
 ex03: CMakeFiles/ex03.dir/Ice.cpp.o
 ex03: CMakeFiles/ex03.dir/Character.cpp.o
+ex03: CMakeFiles/ex03.dir/MateriaSource.cpp.o
+ex03: CMakeFiles/ex03.dir/main.cpp.o
 ex03: CMakeFiles/ex03.dir/AMateria.cpp.o
 ex03: CMakeFiles/ex03.dir/build.make
 ex03: CMakeFiles/ex03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/itollett/cpp/day04/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ex03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/itollett/cpp/day04/ex03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ex03"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex03.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -37,7 +37,8 @@ int Squad::push(ISpaceMarine *new_sm) {
 		}
 		ISpaceMarine ** temp = new ISpaceMarine*[_count + 1];
 		for (int i = 0; i < _count; i++){
-			temp[i] = _marine[i];
+			temp[i] = _marine[i]->clone();
+			delete _marine[i];
 		}
 		temp[_count++] = new_sm;
 		delete [] _marine;
@@ -48,14 +49,21 @@ int Squad::push(ISpaceMarine *new_sm) {
 
 Squad::Squad(const Squad &src) {
 	if (this != &src){
-		_marine = src._marine;
-		_count = src._count;
+		*this = src;
 	}
 }
 
 Squad & Squad::operator=(const Squad &src) {
-	if (this != &src){
-		_marine = src._marine;
+	if (this != &src) {
+		if (src._marine) {
+			ISpaceMarine **tmp = new ISpaceMarine*[_count];
+			for (int i = 0; i < _count; i++) {
+				tmp[i] = _marine[i]->clone();
+				delete _marine[i];
+			}
+			delete[] _marine;
+			_marine = tmp;
+		}
 		_count = src._count;
 	}
 	return (*this);

@@ -10,7 +10,8 @@ AssaultTerminator::~AssaultTerminator() {
 	std::cout <<  "I’ll be back..." << std::endl;
 }
 
-AssaultTerminator::AssaultTerminator(const AssaultTerminator &src) {
+AssaultTerminator::AssaultTerminator(const AssaultTerminator &src){
+	*this = src;
 }
 
 AssaultTerminator & AssaultTerminator::operator=(const AssaultTerminator &src) {

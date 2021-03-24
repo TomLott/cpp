@@ -78,6 +78,7 @@ int main(){
 	std::cout << "-----------------" << std::endl;
 	f.meleeAttack("third");
 	f.NinjaTrap::meleeAttack("third");
+	f.print();
 	std::cout << "-----------------" << std::endl;
 
 
