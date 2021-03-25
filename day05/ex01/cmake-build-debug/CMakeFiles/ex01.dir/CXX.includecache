@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day05/ex01/Bureaucrat.cpp
+Bureaucrat.hpp
+/Users/itollett/cpp/day05/ex01/Bureaucrat.hpp
+Form.hpp
+/Users/itollett/cpp/day05/ex01/Form.hpp
+
+/Users/itollett/cpp/day05/ex01/Bureaucrat.hpp
+string
+-
+iostream
+-
+Form.hpp
+/Users/itollett/cpp/day05/ex01/Form.hpp
+
+/Users/itollett/cpp/day05/ex01/Form.hpp
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day05/ex01/main.cpp
+iostream
+-
+Bureaucrat.hpp
+/Users/itollett/cpp/day05/ex01/Bureaucrat.hpp
+
