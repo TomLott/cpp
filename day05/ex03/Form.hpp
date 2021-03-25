@@ -30,7 +30,7 @@ public:
 
 	void setTarget(std::string const &target);
 
-	const std::string &getTarget() const;
+	std::string getTarget() const;
 
 	int getGradeExec() const;
 

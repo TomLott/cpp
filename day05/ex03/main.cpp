@@ -4,6 +4,7 @@
 #include "RobotomyRequestForm.hpp"
 #include "ShrubberyCreationForm.hpp"
 #include "PresidentialPardonForm.hpp"
+#include "Intern.hpp"
 void shrub_test();
 
 void robo_test();
@@ -11,6 +12,7 @@ void robo_test();
 void presidential_test();
 
 void file_test();
+void intern_test();
 int main(void) {
 /*
 	Bureaucrat a("Mike", 100);
@@ -101,7 +103,8 @@ int main(void) {
 		//shrub_test();
 		//robo_test();
 		//	presidential_test();
-		file_test();
+		//file_test();
+		intern_test();
 
 
 
@@ -111,24 +114,24 @@ int main(void) {
 		Bureaucrat *bureaucrat;
 		try {
 			presidentialPardonForm = new PresidentialPardonForm("pardon_1");
-		} catch (std::exception &exception) {
-			std::cerr << exception.what() << std::endl;
+		} catch (std::exception &e) {
+			std::cout << e.what() << std::endl;
 		}
 		std::cout << *presidentialPardonForm << std::endl;
 		try {
 			bureaucrat = new Bureaucrat("Buro1", 1);
-		} catch (std::exception &exception) {
-			std::cerr << exception.what() << std::endl;
+		} catch (std::exception &e) {
+			std::cout << e.what() << std::endl;
 		}
 		try {
 			bureaucrat->signForm(*presidentialPardonForm);
-		} catch (std::exception &exception) {
-			std::cerr << exception.what() << std::endl;
+		} catch (std::exception &e) {
+			std::cout << e.what() << std::endl;
 		}
 		try {
 			bureaucrat->executeForm(*presidentialPardonForm);
-		} catch (std::exception &exception) {
-			std::cerr << exception.what() << std::endl;
+		} catch (std::exception &e) {
+			std::cout << e.what() << std::endl;
 		}
 		std::cout << *presidentialPardonForm << std::endl;
 	}
@@ -140,30 +143,30 @@ int main(void) {
 				Bureaucrat bureaucrat("Buro2", 10);
 				try {
 					bureaucrat.signForm(robotomyRequestForm);
-				} catch (std::exception &exception) {
-					std::cerr << exception.what() << std::endl;
+				} catch (std::exception &e) {
+					std::cout << e.what() << std::endl;
 				}
 				try {
 					bureaucrat.signForm(robotomyRequestForm);
-				} catch (std::exception &exception) {
-					std::cerr << exception.what() << std::endl;
+				} catch (std::exception &e) {
+					std::cout << e.what() << std::endl;
 				}
 				try {
 					bureaucrat.executeForm(robotomyRequestForm);
-				} catch (std::exception &exception) {
-					std::cerr << exception.what() << std::endl;
+				} catch (std::exception &e) {
+					std::cout << e.what() << std::endl;
 				}
 				try {
 					bureaucrat.executeForm(robotomyRequestForm);
-				} catch (std::exception &exception) {
-					std::cerr << exception.what() << std::endl;
+				} catch (std::exception &e) {
+					std::cout << e.what() << std::endl;
 				}
-			} catch (std::exception &exception) {
-				std::cerr << exception.what() << std::endl;
+			} catch (std::exception &e) {
+				std::cout << e.what() << std::endl;
 			}
 		}
-		catch (std::exception &exception) {
-			std::cerr << exception.what() << std::endl;
+		catch (std::exception &e) {
+			std::cout<< e.what() << std::endl;
 		}
 	}
 	void shrub_test() {
@@ -174,26 +177,24 @@ int main(void) {
 				Bureaucrat bureaucrat("Buro3", 130);
 				try {
 					bureaucrat.signForm(shrubberyCreationForm);
-				} catch (std::exception &exception) {
-					std::cerr << exception.what() << std::endl;
+				} catch (std::exception &e) {
+					std::cout << e.what() << std::endl;
 				}
-//	-----------exception
 				try {
 					bureaucrat.signForm(shrubberyCreationForm);
-				} catch (std::exception &exception) {
-					std::cerr << exception.what() << std::endl;
+				} catch (std::exception &e) {
+					std::cout << e.what() << std::endl;
 				}
-//	------------------------------
 				try {
 					bureaucrat.executeForm(shrubberyCreationForm);
-				} catch (std::exception &exception) {
-					std::cerr << exception.what() << std::endl;
+				} catch (std::exception &e) {
+					std::cout << e.what() << std::endl;
 				}
-			} catch (std::exception &exception) {
-				std::cerr << exception.what() << std::endl;
+			} catch (std::exception &e) {
+				std::cout << e.what() << std::endl;
 			}
-		} catch (std::exception &exception) {
-			std::cerr << exception.what() << std::endl;
+		} catch (std::exception &e) {
+			std::cout << e.what() << std::endl;
 		}
 
 }
@@ -204,5 +205,25 @@ int main(void) {
 	form2.beSigned(f);
 	f.executeForm(form2);
 	form2.beExecuted();
+
+}
+	void intern_test(){
+		{
+			Intern someRandomIntern;
+			Form *rrf;
+			rrf = someRandomIntern.makeForm("robotomy request", "Bender");
+			std::cout << rrf->getName() << std::endl;
+
+			delete rrf;
+			rrf = nullptr;
+			try {
+				rrf = someRandomIntern.makeForm("hehe", "Bender");
+				std::cout << rrf->getName() << std::endl;
+			}
+			catch (std::exception & e){
+				std::cout << e.what() << std::endl;
+			}
+			delete rrf;
+		}
 
 }

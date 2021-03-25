@@ -12,7 +12,6 @@ public:
 				PresidentialPardonForm(std::string const & target);
 				PresidentialPardonForm(PresidentialPardonForm const & src);
 				PresidentialPardonForm & operator = (PresidentialPardonForm const & src);
-
 				void beExecuted() const;
 };
 

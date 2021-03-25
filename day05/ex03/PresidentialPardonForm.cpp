@@ -10,14 +10,14 @@ PresidentialPardonForm::PresidentialPardonForm(std::string const &target) : Form
 
 PresidentialPardonForm::PresidentialPardonForm(
 		const PresidentialPardonForm &src) : Form(src) {
-	setTarget(const_cast<std::string &>(src.getTarget()));
+	setTarget((src.getTarget()));
 }
 
 PresidentialPardonForm & PresidentialPardonForm::operator=(
 		const PresidentialPardonForm &src) {
 	if (this != &src){
 		Form::operator=(src);
-		setTarget(const_cast<std::string &>(src.getTarget()));
+		setTarget(src.getTarget());
 	}
 	return (*this);
 }

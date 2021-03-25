@@ -1,6 +1,8 @@
 #include "TacticalMarine.hpp"
 
 TacticalMarine::TacticalMarine(const TacticalMarine &src) {
+	(void)src;
+	std::cout << "Tactical Marine ready for battle!" << std::endl;
 }
 
 TacticalMarine::TacticalMarine() {
@@ -12,6 +14,7 @@ TacticalMarine::~TacticalMarine() {
 }
 
 TacticalMarine & TacticalMarine::operator = (const TacticalMarine &src) {
+	(void)src;
 	return (*this);
 }
 

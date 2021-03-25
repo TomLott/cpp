@@ -51,4 +51,5 @@ AMateria * MateriaSource::createMateria(std::string const & type){
         if (_aMateria[i] && _aMateria[i]->getType() == type)
             return (_aMateria[i]->clone());
     }
+	return (nullptr);
 }

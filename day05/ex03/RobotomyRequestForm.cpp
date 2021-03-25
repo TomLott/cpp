@@ -9,7 +9,7 @@ RobotomyRequestForm::~RobotomyRequestForm() {
 }
 
 RobotomyRequestForm::RobotomyRequestForm(RobotomyRequestForm const & src) : Form(src) {
-	setTarget(const_cast<std::string &>(src.getTarget()));
+	setTarget(src.getTarget());
 	srand(time(NULL));
 }
 
@@ -17,7 +17,7 @@ RobotomyRequestForm & RobotomyRequestForm::operator=(
 		const RobotomyRequestForm &src) {
 	if (this != &src) {
 		Form::operator=(src);
-		setTarget(const_cast<std::string &>(src.getTarget()));
+		setTarget(src.getTarget());
 	}
 	return (*this);
 }

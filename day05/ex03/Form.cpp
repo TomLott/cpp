@@ -73,7 +73,7 @@ void Form::beSigned(Bureaucrat &src) {
 
 void Form::setTarget(std::string const &target) { _target = target;}
 
-std::string const  & Form::getTarget() const{ return (_target);}
+std::string Form::getTarget() const{ return (_target);}
 
 
 const char * Form::NotSignedException::what() const throw() {
