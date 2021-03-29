@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/itollett/cpp/day05/ex01/Bureaucrat.cpp
-Bureaucrat.hpp
-/Users/itollett/cpp/day05/ex01/Bureaucrat.hpp
-Form.hpp
-/Users/itollett/cpp/day05/ex01/Form.hpp
-
 /Users/itollett/cpp/day05/ex01/Bureaucrat.hpp
 string
 -

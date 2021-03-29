@@ -1,7 +1,7 @@
 #include "Form.hpp"
 #include "Bureaucrat.hpp"
 
-Form::Form() : _name(), _gradeExec(0), _gradeSign(0) {
+Form::Form() : _name(), _gradeSign(0), _gradeExec(0) {
 	_isSigned = false;
 }
 
@@ -9,7 +9,7 @@ Form::~Form() {
 
 }
 
-Form::Form(const std::string &name, const int gradeExec, const int gradeSign) : _name(name), _gradeExec(gradeExec), _gradeSign(gradeExec) {
+Form::Form(const std::string &name, const int gradeExec, const int gradeSign) : _name(name), _gradeSign(gradeSign), _gradeExec(gradeExec) {
 	_isSigned = false;
 	if (_gradeSign < 1 || _gradeExec < 1)
 		throw Form::GradeTooHighException();
@@ -18,7 +18,7 @@ Form::Form(const std::string &name, const int gradeExec, const int gradeSign) : 
 }
 
 
-Form::Form(const Form &src) : _name(src._name), _gradeExec(src._gradeExec), _gradeSign(src._gradeExec) {
+Form::Form(const Form &src) : _name(src._name), _gradeSign(src._gradeSign), _gradeExec(src._gradeExec) {
 	if (_gradeSign < 1 || _gradeExec < 1)
 		throw Form::GradeTooHighException();
 	if (_gradeSign > 150 || _gradeExec > 150)
@@ -80,5 +80,7 @@ void Form::beSigned(Bureaucrat &src) {
 	}
 	else if (_isSigned)
 		std::cout << "From is already signed." << std::endl;
+	if (src.getGrade() > _gradeSign)
+		throw Form::GradeTooLowException();
 	_isSigned = true;
 }

@@ -4,7 +4,7 @@ int main(){
 	Bureaucrat a("Mike1", 5);
 	std::cout << a << std::endl;
 
-	std::cout << "====1===" << std::endl;
+	std::cout << "====1===To high" << std::endl;
 	try {
 		Bureaucrat b("Mike2", -5);
 		std::cout << b << std::endl;
@@ -17,7 +17,7 @@ int main(){
 	std::cout << c << std::endl;
 
 
-	std::cout << "====2===" << std::endl;
+	std::cout << "====2=== to low" << std::endl;
 	try{
 		Bureaucrat d("Mike4", 200);
 		std::cout << d << std::endl;
@@ -25,7 +25,7 @@ int main(){
 	catch (Bureaucrat::GradeTooLowException & e){
 		std::cout << e.what() << std::endl << "=========" << std::endl << std::endl;
 	}
-	std::cout << "====3===" << std::endl;
+	std::cout << "====3=== to low" << std::endl;
 	try {
 		Bureaucrat e("Mike5", 1000);
 	}

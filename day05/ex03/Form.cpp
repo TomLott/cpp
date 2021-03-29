@@ -68,6 +68,8 @@ void Form::beSigned(Bureaucrat &src) {
 	}
 	else if (_isSigned)
 		std::cout << "From is already signed." << std::endl;
+	if (src.getGrade() > _gradeSign)
+		throw Form::GradeTooLowException();
 	_isSigned = true;
 }
 
@@ -87,6 +89,6 @@ void Form::execute(const Bureaucrat &executor) const {
 		throw NotSignedException();
 	if (executor.getGrade() > _gradeExec)
 		throw GradeTooLowException();
-	makeExecution();
+	this->makeExecution();
 
 }

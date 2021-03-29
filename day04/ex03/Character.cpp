@@ -20,29 +20,35 @@ Character::Character(std::string const & name){
 Character::~Character() {
 	for (int i = 0; i < 4; i++){
 		if (_aMateria[i])
-			delete _aMateria[i];
+			_aMateria[i] = nullptr;
+
 	}
 
 }
 
 Character::Character(Character const & src){
-    if (this != &src){
-        *this = src;
-    }
+	_count = src._count;
+	this->_name = src._name;
+	for (int i = 0; i < 4; i++)
+		if (src._aMateria[i])
+			_aMateria[i] = src._aMateria[i];
+		else
+			_aMateria[i] = nullptr;
 }
 
 Character & Character::operator = (Character const & src){
     if (this != &src){
+    	this->_name = src._name;
         this->_count = src._count;
-
         for (int i = 0; i < 4; i++){
-            if (_aMateria[i])
+            if (src._aMateria[i]) {
 				delete _aMateria[i];
-			_aMateria[i] = nullptr;
-            }
-        int i = 0;
-        while (_aMateria[i])
-            _aMateria[i] = src._aMateria[i];
+				_aMateria[i] = nullptr;
+			}
+        }
+		for (int i = 0; i < 4; i++)
+			if (src._aMateria[i])
+				_aMateria[i] = src._aMateria[i]->clone();
     }
     return (*this);
 }
@@ -52,8 +58,7 @@ void Character::equip(AMateria *m){
         std::cout << "Materia doesn't exist" << std::endl;
 	else if (_count < 4){
         for (int i = 0; i < 4; i++){
-            if (m == this->_aMateria[i]){
-                std::cout << "This materia was already equiped" << std::endl;
+            if (m == _aMateria[i]){
                 return ;
             }
         }
@@ -68,7 +73,6 @@ void Character::equip(AMateria *m){
 void Character::unequip(int idx){
     if (idx >= 0 && idx < 4){
         if (_aMateria[idx]){
-            delete _aMateria[idx];
             _aMateria[idx] = nullptr;
         }
     }
@@ -76,7 +80,8 @@ void Character::unequip(int idx){
 
 void Character::use(int idx, ICharacter & target){
     if (idx >= 0 && idx < 4 && _aMateria[idx]){
-        _aMateria[idx]->use(target);}
+        _aMateria[idx]->use(target);
+    }
 }
 
 std::string const & Character::getName() const{

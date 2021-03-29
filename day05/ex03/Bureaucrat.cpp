@@ -83,6 +83,7 @@ void Bureaucrat::signForm(Form & src) {
 	else{
 		std::cout <<  _name << " cannot sign " << src.getName() << " because "
 				  << ((src.getGradeSign() < _grade) ? " grade is too low" : " is already signed.") << std::endl;
+		return ;
 	}
 	src.beSigned(*this);
 }
@@ -95,6 +96,7 @@ void Bureaucrat::executeForm(Form &src) const {
 		std::cout << _name << " can't execute " << src.getTarget() << ". Grade is not high enough." << std::endl;
  	}
 	else {
+		src.makeExecution();
 		std::cout << _name << " has executed " << src.getTarget() << std::endl;
 	}
 }

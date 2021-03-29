@@ -7,7 +7,7 @@
 class Squad : public ISquad{
 private:
 	int     _count;
-	ISpaceMarine **_marine;
+	ISpaceMarine *_marine[4];
 public:
 	Squad();
 	virtual ~Squad();

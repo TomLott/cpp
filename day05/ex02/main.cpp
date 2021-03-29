@@ -100,8 +100,8 @@ int main(void) {
 
 		//shrub_test();
 		//robo_test();
-		//	presidential_test();
-		file_test();
+			presidential_test();
+		//file_test();
 
 
 
@@ -116,7 +116,7 @@ int main(void) {
 		}
 		std::cout << *presidentialPardonForm << std::endl;
 		try {
-			bureaucrat = new Bureaucrat("Buro1", 1);
+			bureaucrat = new Bureaucrat("Buro1", 1); // put 100
 		} catch (std::exception &exception) {
 			std::cerr << exception.what() << std::endl;
 		}
@@ -201,8 +201,11 @@ int main(void) {
 	ShrubberyCreationForm form2("form2");
 	Bureaucrat f("Mike", 1);
 
+	std::cout << form2 << std::endl;
 	form2.beSigned(f);
+	std::cout << form2 << std::endl;
 	f.executeForm(form2);
-	form2.beExecuted();
+	form2.makeExecution();
+	std::cout << form2 << std::endl;
 
 }

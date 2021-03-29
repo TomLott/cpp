@@ -17,7 +17,7 @@ public:
 				void makeTree();
 				std::string const  static & getTree(int i);
 
-				void beExecuted() const;
+				void makeExecution() const;
 };
 
 

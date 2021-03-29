@@ -13,6 +13,9 @@ public:
 	~Scalar();
 	Scalar(std::string & _num);
 
+	Scalar(Scalar const & src);
+	Scalar & operator = (Scalar const & src);
+
 	void toChar();
 	void toInt();
 	void toFloat();

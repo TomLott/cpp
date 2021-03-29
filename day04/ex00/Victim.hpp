@@ -11,7 +11,7 @@ private:
 	std::string _name;
 public:
 	Victim(std::string const & name);
-	~Victim();
+	virtual ~Victim();
 
 	Victim(Victim const &src);
 	Victim & operator = (Victim const & src);

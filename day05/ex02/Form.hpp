@@ -42,7 +42,7 @@ public:
 	void beSigned(Bureaucrat &src);
 
 	void execute(Bureaucrat const &executor) const;
-	void makeExecution() const;
+	virtual void makeExecution() const;
 
 	class GradeTooHighException : public std::exception {
 	public:

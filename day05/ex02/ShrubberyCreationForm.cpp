@@ -58,7 +58,7 @@ std::string const & ShrubberyCreationForm::getTree(int i){
 ShrubberyCreationForm::ShrubberyCreationForm() : Form("", 0, 0){
 }
 
-void ShrubberyCreationForm::beExecuted() const {
+void ShrubberyCreationForm::makeExecution() const {
 	std::string fileName;
 	fileName = _name + "_tree";
 
@@ -76,4 +76,5 @@ void ShrubberyCreationForm::beExecuted() const {
 		file << tree;
 	}
 	file.close();
+	std::cout << _name << " has been executed well" << std::endl;
 }

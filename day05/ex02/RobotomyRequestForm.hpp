@@ -15,7 +15,7 @@ public:
 
 				RobotomyRequestForm & operator = (RobotomyRequestForm const & src);
 
-				void beExecuted() const;
+				void makeExecution() const;
 
 
 };

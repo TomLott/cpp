@@ -10,9 +10,8 @@ MateriaSource::MateriaSource(){
 
 MateriaSource::~MateriaSource(){
     for (int i = 0; i < 4; i++){
-        if (_aMateria[i])
-            delete _aMateria[i];
-        _aMateria[i] = nullptr;
+    	delete _aMateria[i];
+    	_aMateria[i] = nullptr;
     }
 }
 
@@ -26,13 +25,11 @@ MateriaSource & MateriaSource::operator = (MateriaSource const & src){
     if (this != &src){
         _count = src._count;
         for (int i = 0; i < 4; i++){
-            if (_aMateria[i])
-                delete _aMateria[i];
-            _aMateria[i] = nullptr;
+        	delete _aMateria[i];
+        	_aMateria[i] = nullptr;
         }
         for (int i = 0; i < 4; i++){
-            if (src._aMateria[i])
-                this->_aMateria[i] = src._aMateria[i];
+        	this->_aMateria[i] = src._aMateria[i];
         }
     }
     return(*this);

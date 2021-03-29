@@ -4,10 +4,11 @@
 #include "Enemy.hpp"
 #include "Character.hpp"
 #include "RadScorpion.hpp"
+#include "SuperMutant.hpp"
 
 int  main(){
 		Character* me = new Character("me");
-		std::cout << *me;
+		/*std::cout << *me;
 		Enemy* b = new RadScorpion();
 		AWeapon* pr = new PlasmaRifle();
 		AWeapon* pf = new PowerFist();
@@ -15,23 +16,45 @@ int  main(){
 		std::cout << *me;
 		me->equip(pf);
 		me->attack(b);
-//		me->attack(b);
-//		me->attack(b);
-//		me->attack(b);
-//		me->attack(b);
-//		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
 		std::cout << *me;
 		me->equip(pr);
 		std::cout << *me;
 		me->attack(b);
 		std::cout << *me;
 		me->attack(b);
-		std::cout << *me;
+		std::cout << *me;*/
+
+
+		Enemy *b = new SuperMutant();
+		AWeapon* pr = new PlasmaRifle();
+		me->equip(pr);
+
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+
+		me->recoverAP();
+		me->attack(b);
+		me->attack(b);
+		me->attack(b);
+
 
 		delete me;
 
 
-		std::cout << "___________ " << std::endl;
+	/*	std::cout << "___________ " << std::endl;
 
 
 		Character Tom("Tom");
@@ -47,7 +70,7 @@ int  main(){
 		Tom.attack(Jerry);
 
 		std::cout << Tom << std::endl;
-
+*/
 
 		return 0;
 }

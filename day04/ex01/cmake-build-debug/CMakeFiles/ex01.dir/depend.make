@@ -34,5 +34,6 @@ CMakeFiles/ex01.dir/main.cpp.o: ../Enemy.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../PlasmaRifle.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../PowerFist.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../RadScorpion.hpp
+CMakeFiles/ex01.dir/main.cpp.o: ../SuperMutant.hpp
 CMakeFiles/ex01.dir/main.cpp.o: ../main.cpp
 

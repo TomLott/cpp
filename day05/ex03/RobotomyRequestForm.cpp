@@ -23,12 +23,13 @@ RobotomyRequestForm & RobotomyRequestForm::operator=(
 }
 
 RobotomyRequestForm::RobotomyRequestForm(std::string const &target) : Form("RobotomyRequest", 72, 45) {
+	srand(time(NULL));
 	setTarget(target);
 }
 
-void RobotomyRequestForm::beExecuted() const {
+void RobotomyRequestForm::makeExecution() const {
 	std::cout << "vzh vzh vzh kh kh" << std::endl;
-	if (rand() % 2)
+	if (rand() % 2 == 1)
 		std::cout << getTarget() << " has been robotomized successfully" << std::endl;
 	else
 		std::cout << "Nuh, next time maybe" << std::endl;

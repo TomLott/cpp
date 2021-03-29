@@ -104,7 +104,7 @@ int main(void) {
 		//robo_test();
 		//	presidential_test();
 		//file_test();
-		intern_test();
+		//intern_test();
 
 
 
@@ -204,7 +204,7 @@ int main(void) {
 
 	form2.beSigned(f);
 	f.executeForm(form2);
-	form2.beExecuted();
+	form2.makeExecution();
 
 }
 	void intern_test(){
@@ -213,6 +213,13 @@ int main(void) {
 			Form *rrf;
 			rrf = someRandomIntern.makeForm("robotomy request", "Bender");
 			std::cout << rrf->getName() << std::endl;
+			Form *rrf1;
+			rrf1 = someRandomIntern.makeForm("presidential request", "Bender");
+			std::cout << rrf1->getName() << std::endl;
+
+
+
+
 
 			delete rrf;
 			rrf = nullptr;

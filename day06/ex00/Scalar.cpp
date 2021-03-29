@@ -71,3 +71,16 @@ void Scalar::toDouble() {
 	}
 	std::cout << "double: " << std::fixed << std::setprecision(1) << static_cast<double>(d) << std::endl;
 }
+
+Scalar::Scalar(const Scalar &src) {
+	if (this != &src){
+		_num = src._num;
+	}
+}
+
+Scalar & Scalar::operator=(const Scalar &src) {
+	if (this != &src) {
+		_num = src._num;
+	}
+	return (*this);
+}

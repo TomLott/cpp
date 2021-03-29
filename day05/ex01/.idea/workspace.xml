@@ -12,11 +12,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f244383f-a6c2-45d4-87e5-3a6abc00f65d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Form.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Form.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ex01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ex01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day06/ex01/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day06/ex02/Base.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day06/ex02/Base.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day06/ex02/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day01/ex07/.idea/ex07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day01/ex07/.idea/ex07.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day01/ex07/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../day01/ex07/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day01/ex07/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../day01/ex07/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day01/ex07/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../day01/ex07/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex00/Victim.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex00/Victim.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex00/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex00/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/Squad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/Squad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/Squad.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/Squad.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/AssaultTerminator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/AssaultTerminator.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/Squad.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/TacticalMarine.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/TacticalMarine.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/CMakeFiles/ex02.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/ex02" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/ex02" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/ex02.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/cmake-build-debug/ex02.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex02/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex02/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/Character.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/Character.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/ICharacter.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/ICharacter.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/Ice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/Ice.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/MateriaSource.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/MateriaSource.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/AMateria.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/AMateria.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Character.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Character.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Cure.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Cure.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Ice.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/Ice.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/MateriaSource.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/MateriaSource.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/CMakeFiles/ex03.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/ex03" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/ex03" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/ex03.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/cmake-build-debug/ex03.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day04/ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day04/ex03/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex00/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex00/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bureaucrat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Bureaucrat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Form.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/Bureaucrat.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/Bureaucrat.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/Form.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/Form.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex01.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex01" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex01" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/Bureaucrat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/Bureaucrat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/Form.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/Form.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ex02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex03/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex03/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/Scalar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/Scalar.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/ex00/.idea/ex00.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/ex00/.idea/ex00.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/ex00/Scalar.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/ex00/Scalar.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/ex00/Scalar.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/ex00/Scalar.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/ex00/Scalar.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/ex00/Scalar.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/ex00/scalar" beforeDir="false" afterPath="$PROJECT_DIR$/../../day06/ex00/scalar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day06/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +135,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,9 +145,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="ex01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex01" TARGET_NAME="ex01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex01" RUN_TARGET_NAME="ex01">
@@ -75,6 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616659202058</updated>
       <workItem from="1616659203335" duration="2223000" />
+      <workItem from="1616955735134" duration="441000" />
     </task>
     <servers />
   </component>
@@ -91,5 +187,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
