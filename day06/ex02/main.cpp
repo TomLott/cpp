@@ -66,4 +66,5 @@ int main() {
 
 	identify_from_pointer(b);
 	identify_from_reference(*b);
+
 }

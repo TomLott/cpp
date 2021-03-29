@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+/Users/itollett/cpp/day06/ex02/Base.cpp
+Base.hpp
 /Users/itollett/cpp/day06/ex02/Base.hpp
+iostream
+-
+
+/Users/itollett/cpp/day06/ex02/Base.hpp
+iostream
+-
 
 /Users/itollett/cpp/day06/ex02/main.cpp
 Base.hpp

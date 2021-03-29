@@ -1,6 +1,8 @@
 #ifndef BASE_HPP
 #define BASE_HPP
 
+#include <iostream>
+
 class Base {
 public:
 	virtual ~Base();
@@ -9,7 +11,6 @@ public:
 
 class A : public Base{
 public:
-
 };
 
 class B : public Base{

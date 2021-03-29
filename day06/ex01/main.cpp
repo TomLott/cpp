@@ -24,8 +24,8 @@ int main() {
 
 	std::cout << "After deserialization." << std::endl;
 	std::cout << "s1 is: "<< s->s1 << std::endl;
-	std::cout << "s2 is: "<< s->s2 << std::endl;
 	std::cout << "num is: "<< s->num << std::endl;
+	std::cout << "s2 is: "<< s->s2 << std::endl;
 
 
 }
@@ -46,10 +46,14 @@ void * serialize(void) {
 	std::cout << "num is: ";
 	int temp = std::rand() % 100;
 	*reinterpret_cast<int *> (q + 8) = temp;
+	std::cout << temp << std::endl;
 
+	std::cout << "s2 is: ";
 	for (int i = 0; i < 8; i++) {
 		q[i + 12] = alf2[rand() % 26];
+		std::cout << q[i + 12];
 	}
+	std::cout << std::endl;
 	return (reinterpret_cast<void *>(q));
 }
 
