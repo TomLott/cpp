@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day07/ex00/main..cpp
+iomanip
+-
+whatever.hpp
+/Users/itollett/cpp/day07/ex00/whatever.hpp
+
+/Users/itollett/cpp/day07/ex00/whatever.hpp
+iostream
+-
+

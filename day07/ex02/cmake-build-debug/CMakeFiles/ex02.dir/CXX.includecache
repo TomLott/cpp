@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day07/ex02/Array.hpp
+exception
+-
+string
+-
+iostream
+-
+
+/Users/itollett/cpp/day07/ex02/main.cpp
+Array.hpp
+/Users/itollett/cpp/day07/ex02/Array.hpp
+
