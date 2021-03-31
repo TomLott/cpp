@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/itollett/cpp/day08/ex00/easyfind.hpp
+exception
+-
+algorithm
+-
+
+/Users/itollett/cpp/day08/ex00/main.cpp
+vector
+-
+easyfind.hpp
+/Users/itollett/cpp/day08/ex00/easyfind.hpp
+iostream
+-
+set
+-
+
