@@ -1,3 +1,0 @@
-/Users/itollett/cpp/day01/ex07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/itollett/cpp/day01/ex07/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/itollett/cpp/day01/ex07/cmake-build-debug/CMakeFiles/ex07.dir
